@@ -1,5 +1,5 @@
 * {
-    border: 0.2px solid rgba(0, 145, 255, 0.69);
+    border: 0.2px solid rgba(255, 0, 93, 0.69);
   }
   
   .container {
@@ -82,21 +82,21 @@
   }
   
   .left_head {
-    border: 1px solid #000;
+    border: 1px solid #392b2b;
     border-radius: 10px;
     width: 70%;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(210, 218, 178);
+    background-color: rgb(219, 239, 135);
   }
   
   .left_head > span {
     border: 1px solid #361414;
     border-radius: 5px;
     padding: 5px;
-    background-color: rgb(93, 93, 112);
+    background-color: rgb(94, 208, 180);
   }
   
   .right_head {
