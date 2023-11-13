@@ -1,0 +1,95 @@
+body{
+    background-color: #454141;
+    color: white;
+}
+
+.header{
+    height: 10vh;
+    border: 3px solid #2380a7;
+    display: flex;
+}
+
+.main{
+    height: 86vh;
+    border: 3px solid darkgreen;
+    display: flex;
+}
+
+.left-head{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+.right-head{
+    width: 50%;
+    float: right;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.left-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 12%;
+    border: 3px solid white;
+}
+.right-main{
+    width: 87%;
+    border: 3px solid white;
+}
+.top-left-main{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.right-main {
+    width: 87%;
+    border: 3px solid white;
+    display: flex;
+}
+
+.right-content,
+.right-aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-content {
+    width: 70%;
+    border: 2px solid white;
+}
+
+.right-aside {
+    width: 30%;
+    
+}
+
+.display,
+.players,
+.teams {
+    flex: 1; /* Equal height distribution within right-content */
+    border: 2px solid white;
+}
+.teams {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+.team_1,
+.team_2 {
+    flex: 1; /* Equal height distribution within score for team_1 and team_2 */
+    border: 2px solid white;
+}
+
+.right-aside .chat_list {
+    height: 60%;
+    border: 2px solid white;
+}
+
+.right-aside .top_channel {
+    height: 40%;
+}
